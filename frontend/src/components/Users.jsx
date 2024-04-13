@@ -14,7 +14,7 @@ export const Users = () => {
   };
   useEffect(() => {
     axios
-      .get("https://paytm-ak.onrender.com/api/v1/user/bulk?filter=" + filter, {
+      .get("https://ezpay-6twy.onrender.com/api/v1/user/bulk?filter=" + filter, {
         headers,
       })
       .then((response) => setUsers(response.data.user))

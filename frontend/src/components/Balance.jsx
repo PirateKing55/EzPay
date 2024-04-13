@@ -9,7 +9,7 @@ export const Balance = () => {
   const [balance, setBalance] = useState(0.0);
   useEffect(() => {
     axios
-      .get("https://paytm-ak.onrender.com/api/v1/account/balance", {
+      .get("https://ezpay-6twy.onrender.com/api/v1/account/balance", {
         headers,
       })
       .then((response) => {

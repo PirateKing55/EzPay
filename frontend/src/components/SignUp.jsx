@@ -53,7 +53,7 @@ export const SignUp = () => {
         onclick={async () => {
           try {
             const response = await axios.post(
-              "https://paytm-ak.onrender.com/api/v1/user/signup",
+              "https://ezpay-6twy.onrender.com/api/v1/user/signup",
               {
                 username: email,
                 firstName: firstName,
